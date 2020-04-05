@@ -6,6 +6,14 @@
 
 module.exports = {
   siteName: 'Gridsome',
+  transformers: {
+    remark: {
+      externalLinksTarget: '_blank',
+      externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
+      anchorClassName: 'icon icon-link',
+      plugins: []
+    }
+  },
   plugins: [
     {
       use: '@gridsome/source-filesystem',
@@ -14,9 +22,12 @@ module.exports = {
         typeName: 'Articles',
         remark: {}
       }
-    }
+    },
+    {
+      use: `gridsome-plugin-netlify-cms`,
+      options: {
+        publicPath: `/admin`
+      }
+    },
   ],
-  transformers: {
-    remark: {}
-  }
 }
