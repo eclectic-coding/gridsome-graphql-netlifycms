@@ -6905,10 +6905,10 @@ neo-async@^2.5.0, neo-async@^2.6.0, neo-async@^2.6.1:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.1.tgz#ac27ada66167fa8849a6addd837f6b189ad2081c"
   integrity sha512-iyam8fBuCUpWeKPGpaNMetEocMt364qkCsfL9JuhjXX6dRnguRVOfk2GZaDpPjcOKiiXCPINZC1GczQ7iTq3Zw==
 
-netlify-cms-app@^2.14.35:
-  version "2.14.35"
-  resolved "https://registry.yarnpkg.com/netlify-cms-app/-/netlify-cms-app-2.14.35.tgz#476cce33f3052f7f068e636e61affd76a988e4f0"
-  integrity sha512-KokoLQphfjwg7FkH22AV8rg8Mb63xTSWsHaeRZGoWxrZdcqtZAMWH/q+ujdIMotzD+r2x9rfIFPnd1nzHhW+RA==
+netlify-cms-app@^2.14.36:
+  version "2.14.36"
+  resolved "https://registry.yarnpkg.com/netlify-cms-app/-/netlify-cms-app-2.14.36.tgz#9245c0387067500a9b4549d429ab223393985cf6"
+  integrity sha512-ZhLSpeXJPBRaNfzszs/jBWNOLvZnhDsYNWCkpZjsZ8QrvQBzJpD2Q3FAChPB7hmYDE+35TLVYs5PT9DNJZD0Vg==
   dependencies:
     "@emotion/core" "^10.0.35"
     "@emotion/styled" "^10.0.27"
@@ -7223,13 +7223,13 @@ netlify-cms-widget-text@^2.3.6:
   dependencies:
     react-textarea-autosize "^8.0.0"
 
-netlify-cms@^2.10.105:
-  version "2.10.105"
-  resolved "https://registry.yarnpkg.com/netlify-cms/-/netlify-cms-2.10.105.tgz#3e2bd023481783b0e98c9000f7629e16592d666f"
-  integrity sha512-AcCnVMg6dGhbcaYXU3f+CKA8QCeEfdGQwPhJyu2twU/xYBO0Sq7dWVRDp0ee5x/AP1WdHb76K1PrM/kWHnXkjw==
+netlify-cms@^2.10.106:
+  version "2.10.107"
+  resolved "https://registry.yarnpkg.com/netlify-cms/-/netlify-cms-2.10.107.tgz#6628f1db5544dfae78f05246416f353aa14197d2"
+  integrity sha512-AZuDMuh/aoVeQGRox++uuw6dIZxswEQQdSr5o1mt4e4rmR5K5bTjyHcMoW3bUjDIVHctxbI1KU9imFs7n4AsQQ==
   dependencies:
     codemirror "^5.46.0"
-    netlify-cms-app "^2.14.35"
+    netlify-cms-app "^2.14.36"
     netlify-cms-media-library-cloudinary "^1.3.10"
     netlify-cms-media-library-uploadcare "^0.5.10"
     react "^16.8.4"
