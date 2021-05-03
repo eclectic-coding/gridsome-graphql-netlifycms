@@ -769,6 +769,13 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
+"@babel/runtime@^7.12.5":
+  version "7.14.0"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.14.0.tgz#46794bc20b612c5f75e62dd071e24dfd95f1cbe6"
+  integrity sha512-JELkvo/DlpNdJ7dlyw/eY7E0suy5i5GQH+Vlxaq1nsNJ+H7f4Vtv3jMeCEgRhZZQFXTjldYfQgv2qmM6M1v5wA==
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
 "@babel/template@^7.8.3", "@babel/template@^7.8.6":
   version "7.8.6"
   resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.8.6.tgz#86b22af15f828dfb086474f964dcc3e39c43ce2b"
@@ -6905,10 +6912,10 @@ neo-async@^2.5.0, neo-async@^2.6.0, neo-async@^2.6.1:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.1.tgz#ac27ada66167fa8849a6addd837f6b189ad2081c"
   integrity sha512-iyam8fBuCUpWeKPGpaNMetEocMt364qkCsfL9JuhjXX6dRnguRVOfk2GZaDpPjcOKiiXCPINZC1GczQ7iTq3Zw==
 
-netlify-cms-app@^2.14.47:
-  version "2.14.47"
-  resolved "https://registry.yarnpkg.com/netlify-cms-app/-/netlify-cms-app-2.14.47.tgz#6deffb288175f280b48cbcbccf9e96a1b07c16f7"
-  integrity sha512-tCrUOeQX4ZDDeDLlO4DQAIzrN/K9WtgSeDDLmAFwDIspnU+9XbhIahV4LFOPixtk85UkkurGzFz21KJRY7NTCw==
+netlify-cms-app@^2.14.48:
+  version "2.14.48"
+  resolved "https://registry.yarnpkg.com/netlify-cms-app/-/netlify-cms-app-2.14.48.tgz#94f829528eab18fa1c25f81e4b6e6a77b0afc6c3"
+  integrity sha512-3A2gRY7VRVUGGGjIyFIoM+Cx8AI3a0AJuJFyuk0ZUA+yuflOFnFp2gwvFZvmoCHgFEtlXf+SJjkOGWE1RUkEJA==
   dependencies:
     "@emotion/core" "^10.0.35"
     "@emotion/styled" "^10.0.27"
@@ -6923,7 +6930,7 @@ netlify-cms-app@^2.14.47:
     netlify-cms-backend-gitlab "^2.10.0"
     netlify-cms-backend-proxy "^1.1.7"
     netlify-cms-backend-test "^2.10.7"
-    netlify-cms-core "^2.39.7"
+    netlify-cms-core "^2.39.8"
     netlify-cms-editor-component-image "^2.6.7"
     netlify-cms-lib-auth "^2.4.0"
     netlify-cms-lib-util "^2.13.0"
@@ -7011,10 +7018,10 @@ netlify-cms-backend-test@^2.10.7:
   resolved "https://registry.yarnpkg.com/netlify-cms-backend-test/-/netlify-cms-backend-test-2.10.7.tgz#8ba5e87fc340b580fdafc1d3d9a6b213cba9830b"
   integrity sha512-AoCLHVUocXLSzfXJwn4CeqqKph1lIeyzQcsjJN6Je5r2UU66fiayG+skhu3RjudeKiIfmA4Cf/p0Ay9ooRkxOg==
 
-netlify-cms-core@^2.39.7:
-  version "2.39.7"
-  resolved "https://registry.yarnpkg.com/netlify-cms-core/-/netlify-cms-core-2.39.7.tgz#a4bdc0ac0804dfa03ff69ae8aac6dae5aca13505"
-  integrity sha512-cEVYgjQcLe9NBgz0y8OkkpWQlMjv5blVrw+SxK2fRT9ArZodLxv55boI8Qe09V+V9AWKEFslcxHA6dI63MXlQQ==
+netlify-cms-core@^2.39.8:
+  version "2.39.8"
+  resolved "https://registry.yarnpkg.com/netlify-cms-core/-/netlify-cms-core-2.39.8.tgz#0ee0f37383ea3e02970bc5091bfe26d20b9ca024"
+  integrity sha512-l91n81j6wlVMA+SGk/dGBS2JQR8TsFCROgFlEQkYxILuEX7xT+yUYbi7aCcMdQVUbORekxxlYG81UHiL2ydDxA==
   dependencies:
     "@iarna/toml" "2.2.5"
     ajv "^8.0.0"
@@ -7049,7 +7056,7 @@ netlify-cms-core@^2.39.7:
     react-split-pane "^0.1.85"
     react-topbar-progress-indicator "^4.0.0"
     react-virtualized-auto-sizer "^1.0.2"
-    react-waypoint "^9.0.3"
+    react-waypoint "^10.0.0"
     react-window "^1.8.5"
     redux "^4.0.5"
     redux-devtools-extension "^2.13.8"
@@ -7237,13 +7244,13 @@ netlify-cms-widget-text@^2.3.6:
   dependencies:
     react-textarea-autosize "^8.0.0"
 
-netlify-cms@^2.10.118:
-  version "2.10.118"
-  resolved "https://registry.yarnpkg.com/netlify-cms/-/netlify-cms-2.10.118.tgz#f838d5ee4d4193f294e30a4e9b7fe21d7eca98f0"
-  integrity sha512-5M2lS3FZL4kpR6y9ru5yN/EYC2VgvknrWtVEiWH4sigFcPd3cBLLIb9YzuCpI8Meh5KRn3l2UVeK3duvTTd/cA==
+netlify-cms@^2.10.119:
+  version "2.10.119"
+  resolved "https://registry.yarnpkg.com/netlify-cms/-/netlify-cms-2.10.119.tgz#c1655dc0f063947fcc3273f54a19acd5befa0296"
+  integrity sha512-qih0+rSTSAZSWlNhQeYGwfrXeMkkxuWXwrfQUOyh1X09lSnfrfY3mwur+tgcGxyfJxInkaoWYeltd2PtsdlHpw==
   dependencies:
     codemirror "^5.46.0"
-    netlify-cms-app "^2.14.47"
+    netlify-cms-app "^2.14.48"
     netlify-cms-media-library-cloudinary "^1.3.10"
     netlify-cms-media-library-uploadcare "^0.5.10"
     react "^16.8.4"
@@ -8754,10 +8761,15 @@ react-input-autosize@^2.2.1:
   dependencies:
     prop-types "^15.5.8"
 
-react-is@16.13.1, react-is@^16.6.0, react-is@^16.6.3, react-is@^16.7.0, react-is@^16.8.1, react-is@^16.9.0:
+react-is@16.13.1, react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.1, react-is@^16.9.0:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
+
+react-is@^17.0.1:
+  version "17.0.2"
+  resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
+  integrity sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
 
 react-lifecycles-compat@^3.0.0, react-lifecycles-compat@^3.0.4:
   version "3.0.4"
@@ -8929,14 +8941,15 @@ react-virtualized-auto-sizer@^1.0.2:
   resolved "https://registry.yarnpkg.com/react-virtualized-auto-sizer/-/react-virtualized-auto-sizer-1.0.2.tgz#a61dd4f756458bbf63bd895a92379f9b70f803bd"
   integrity sha512-MYXhTY1BZpdJFjUovvYHVBmkq79szK/k7V3MO+36gJkWGkrXKtyr4vCPtpphaTLRAdDNoYEYFZWE8LjN+PIHNg==
 
-react-waypoint@^9.0.3:
-  version "9.0.3"
-  resolved "https://registry.yarnpkg.com/react-waypoint/-/react-waypoint-9.0.3.tgz#176aa4686b33eb40d0d48d361c468f0367167958"
-  integrity sha512-NRmyjW8CUBNNl4WpvBqLDgBs18rFUsixeHVHrRrFlWTdOlWP7eiDjptqlR/cJAPLD6RwP5XFCm3bi9OiofN3nA==
+react-waypoint@^10.0.0:
+  version "10.1.0"
+  resolved "https://registry.yarnpkg.com/react-waypoint/-/react-waypoint-10.1.0.tgz#6ab522a61bd52946260e4a78b3182759a97b40ec"
+  integrity sha512-wiVF0lTslVm27xHbnvUUADUrcDjrQxAp9lEYGExvcoEBScYbXu3Kt++pLrfj6CqOeeRAL4HcX8aANVLSn6bK0Q==
   dependencies:
+    "@babel/runtime" "^7.12.5"
     consolidated-events "^1.1.0 || ^2.0.0"
     prop-types "^15.0.0"
-    react-is "^16.6.3"
+    react-is "^17.0.1"
 
 react-window@^1.8.5:
   version "1.8.5"
